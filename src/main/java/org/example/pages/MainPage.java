@@ -32,7 +32,7 @@ public class MainPage {
     public void compareDropText(String expectedText, int elementID) {
         WebElement panel = driver.findElement(By.id(searchText + elementID));
         String actualText = panel.getText();
-        assertEquals(expectedText, actualText);
+        Assert.assertEquals(expectedText, actualText);
     }
     //Поиск строки с выпадающим текстом и ожидание после нажатия
     public void clickElement(int elementID) {

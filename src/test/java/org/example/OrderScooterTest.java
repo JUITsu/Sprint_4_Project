@@ -46,7 +46,7 @@ public class OrderScooterTest {
     }
 
     @Test
-    public void OrderScooter(){
+    public void OrderScooterClick(){
         WebDriver driver = driverRule.getDriver();
         MainPage main = new MainPage(driver);
         main.openPage();
